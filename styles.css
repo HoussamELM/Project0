@@ -1,10 +1,15 @@
+body {
+    margin: 0px;
+ }
 ul{
     
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 0px;
+    padding: none;
     overflow: hidden;
     background-color: black;
+    display: inline-flexbox;
+
 }
 li{
     float: left;
@@ -13,11 +18,16 @@ li a{
     text-decoration: none;
     display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 10px;
 }
-li a:hover:not(.active) {
+li a:hover:not(.active,.search) {
     background-color: #111;
   }
 .active{
-    background-color: #04aa6d;
+    background-color: red;
+    margin-left: 3px;
+   padding: 12px;
+}
+.search{
+
 }
