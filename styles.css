@@ -5,7 +5,7 @@ body {
 ul{
     
     list-style-type: none;
-    margin-top: 0px;
+
 
     padding: none;
     overflow: hidden;
@@ -28,12 +28,14 @@ li a{
     text-decoration: none;
     display: block;
     color: white;
-    padding: 10px;
+    margin-bottom: 0px;
+    padding: 13px;
 
 
 }
-li a:hover:not(.active,.search) {
-    background-color: #111;
+li a:hover:not(.nohover) {
+    background-color: skyblue;
+    color: black;
   }
   
   
