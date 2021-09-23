@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    padding: 0px;
  }
 ul{
     
@@ -23,11 +24,17 @@ li a{
 li a:hover:not(.active,.search) {
     background-color: #111;
   }
-.active{
+.about{
     background-color: red;
     margin-left: 3px;
    padding: 12px;
 }
-.search{
-
-}
+img {
+margin: none;
+padding: nones;
+    max-height: 600px !important;
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center; 
+  }
